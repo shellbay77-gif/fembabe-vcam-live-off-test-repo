@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
 Name: FemBabe VCam Live-Off Test
-Version: 1.2.1+liveoff5
+Version: 1.2.1+liveoff6
 Architecture: iphoneos-arm64
-Description: Test build with consistent BT.709 color for iOS 18 stream photos, corrected rotation, and Live state synchronization.
+Description: Test build decoding iOS 18 RTMP frames as Rec.709 video-range with corrected photo rotation and Live state.
 Maintainer: FemBabe
 Depends: firmware (>= 15.6), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.1-liveoff5_iphoneos-arm64.deb
-Size: 1052792
-MD5sum: 4c7efc552ffec2f60b4f7cb340901c42
-SHA1: bf29bb2af4c52a5c7ed1c03f84c1897ec51e9cda
-SHA256: 815d77d2aa3adbd6c27c932c831b252f1c4599c41a89f4f4d9e461a1d5e3f5cb
+Filename: debs/fembabecam_v1.2.1-liveoff6_iphoneos-arm64.deb
+Size: 1051908
+MD5sum: c42362ff97dd65afcdceefae7ebcb337
+SHA1: 8521cfe0ec313bbe4c7be53c98e9a8ae7e52f12a
+SHA256: bc9721a808fc55353eff1355f86c602d6155966279761ed0f6fd1d8868c088c0
