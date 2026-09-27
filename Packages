@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
 Name: FemBabe VCam Live-Off Test
-Version: 1.2.1+liveoff8
+Version: 1.2.1+liveoff9
 Architecture: iphoneos-arm64
-Description: Rollback build restoring the minimal iOS 18 photo pipeline with color normalization, corrected rotation, and Live state fixes.
+Description: Diagnostic build normalizing virtual stills as SDR before iOS 18 encoding while retaining rotation and Live fixes.
 Maintainer: FemBabe
 Depends: firmware (>= 15.6), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.1-liveoff8_iphoneos-arm64.deb
-Size: 1052760
-MD5sum: 6e4010a257cdfc8238b6470150418ad8
-SHA1: b19ef74e1fb1d23d39eb24b85d63201231112330
-SHA256: f4d07a20dc8fa51879de815b23c10e269ce929405d3c49ce8b29e945ad852376
+Filename: debs/fembabecam_v1.2.1-liveoff9_iphoneos-arm64.deb
+Size: 1058748
+MD5sum: c706d5219df5c85808cdde0dd3191e30
+SHA1: 4ac3987d98a8e33a9e5895fffb4679d7f2859dfd
+SHA256: 717492cb1d177838e51baa823d4932905bf5db6b0f5ca5b732cafa4a758992d4
