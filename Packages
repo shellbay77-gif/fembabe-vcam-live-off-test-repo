@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
 Name: FemBabe VCam Live-Off Test
-Version: 1.2.1+liveoff3
+Version: 1.2.1+liveoff4
 Architecture: iphoneos-arm64
-Description: Test build that fixes iOS 18 saved-photo color processing, syncs Live state, and forces OFF on logout or respring.
+Description: Test build that fixes iOS 18 saved-photo color and 180-degree rotation, syncs Live state, and forces OFF on logout or respring.
 Maintainer: FemBabe
 Depends: firmware (>= 15.6), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.1-liveoff3_iphoneos-arm64.deb
-Size: 1052548
-MD5sum: 5856932895a2960f1701439433d1919b
-SHA1: 41bf11c2feffe631a1837b799887461dbae1be41
-SHA256: 4a5115311135abdcd2ec018056b90d875bb8399f99dc25e34070a991e324a299
+Filename: debs/fembabecam_v1.2.1-liveoff4_iphoneos-arm64.deb
+Size: 1052068
+MD5sum: 26eb64c1437f3b4631c863a5dadfc5c6
+SHA1: 41f615242568ef40a8aed93ade1a3d3e48be3ef7
+SHA256: 057177f146dacd02f855d6b3ee526c76f7ebf052e2257c9df012da1b60b5f15d
