@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
 Name: FemBabe VCam Live-Off Test
-Version: 1.2.1+liveoff9
+Version: 1.2.1+liveoff10
 Architecture: iphoneos-arm64
-Description: Diagnostic build normalizing virtual stills as SDR before iOS 18 encoding while retaining rotation and Live fixes.
+Description: Diagnostic build loading the rootless iOS 18 final-still SDR encoder hook with rotation and Live fixes.
 Maintainer: FemBabe
 Depends: firmware (>= 15.6), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.1-liveoff9_iphoneos-arm64.deb
-Size: 1058748
-MD5sum: c706d5219df5c85808cdde0dd3191e30
-SHA1: 4ac3987d98a8e33a9e5895fffb4679d7f2859dfd
-SHA256: 717492cb1d177838e51baa823d4932905bf5db6b0f5ca5b732cafa4a758992d4
+Filename: debs/fembabecam_v1.2.1-liveoff10_iphoneos-arm64.deb
+Size: 1059104
+MD5sum: be8e0aecab57af35e53a71f4e3ca7a93
+SHA1: 7b85cbde83de7ea5a1312546c333fb7320dbeeab
+SHA256: 7cf8448498ca26963095fd47a6d9ff5747f60066a6b698683e125ad31b9e66d2
