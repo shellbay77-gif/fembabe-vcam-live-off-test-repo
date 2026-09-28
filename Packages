@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam BT.709 Still Test
-Version: 1.2.4+matrix1
+Name: FemBabe VCam Deferred Photo Test
+Version: 1.2.5+deferred1
 Architecture: iphoneos-arm64
-Description: Test build using BT.709 only for the modern iOS 18 still-photo transfer path.
+Description: Test build disabling only automatic deferred-photo processing while virtual Live is enabled.
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.4-matrix1_iphoneos-arm64.deb
-Size: 1052880
-MD5sum: c344ff4932100bae9a82a3f6d262b703
-SHA1: 6876c7d10e3c5554a6fea096984510e4c2f8f444
-SHA256: 45f90189caf40d96a716c98d279c98c9957db97494f8ab6b8ccdc5eb2c0fbf9d
+Filename: debs/fembabecam_v1.2.5-deferred1_iphoneos-arm64.deb
+Size: 1054452
+MD5sum: e0781daacc6999fb17529f152f013f4e
+SHA1: 0e75cfed7c12ebd6d2ba36bd5d0bd809311d3028
+SHA256: e7bf66d4dfd98326a906f0ca281cae090bedbc45f001fdb7066fa5b959034932
