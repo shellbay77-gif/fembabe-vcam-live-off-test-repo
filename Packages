@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
 Name: FemBabe VCam Preview Still Test
-Version: 1.2.2+preview2
+Version: 1.2.2+preview3
 Architecture: iphoneos-arm64
-Description: Test build encoding iOS 18 photos from the unrotated decoded virtual frame in SDR sRGB.
+Description: Test build forcing iOS 18 virtual stills to SDR with HDR and deferred camera processing disabled.
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.2-preview2_iphoneos-arm64.deb
-Size: 1060332
-MD5sum: f8459103d0f40519d496893a2f3852cd
-SHA1: fd5a588f79d30b944c3c91c32b15a0b292a598dd
-SHA256: 91f4a9faf7682868a3a40f2fb9b879d202c48ef1d7deaf919eb2d2075f198aa6
+Filename: debs/fembabecam_v1.2.2-preview3_iphoneos-arm64.deb
+Size: 1061784
+MD5sum: 85959d3eabad85ff4120d3bf51bc37a7
+SHA1: bd19d2a94f1d4d59c3447f01e9721d5f50531034
+SHA256: 9a97eb2a96efbd8bcd26a91fc22515f1395fc405fbd26c523b542e9bd6420bd7
