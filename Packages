@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam Preview Still Test
-Version: 1.2.2+preview4
+Name: FemBabe VCam Experimental Rollback
+Version: 1.2.3+rollback1
 Architecture: iphoneos-arm64
-Description: Test build disabling iOS 18 HDR and deferred processing before virtual still settings resolve.
+Description: Rollback build removing experimental iOS 18 still and HDR hooks while retaining orientation and Live fixes.
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.2-preview4_iphoneos-arm64.deb
-Size: 1063156
-MD5sum: 65cff266d011b35e86f0b36e1935aa08
-SHA1: b28839f0e90514e89c8dd2beb31790c7f45c7df3
-SHA256: 37120b6ce93b8d0f40dd50ce6834c73acf95dedb00282bb17581b70e70154eeb
+Filename: debs/fembabecam_v1.2.3-rollback1_iphoneos-arm64.deb
+Size: 1053276
+MD5sum: e3d394e9ca744de691067125821ae110
+SHA1: ec8da07d66f3aa00cce71171f6f97d2479337962
+SHA256: a719cfd1870131c3a84b194f17648c8e06abd5610a47999afb2a163b50f3a0c0
