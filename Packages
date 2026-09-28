@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam Deferred Photo Test
-Version: 1.2.5+deferred1
+Name: FemBabe VCam Experimental Rollback
+Version: 1.2.6+rollback2
 Architecture: iphoneos-arm64
-Description: Test build disabling only automatic deferred-photo processing while virtual Live is enabled.
+Description: Rollback build removing all experimental still-photo processing hooks while retaining orientation and Live fixes.
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.5-deferred1_iphoneos-arm64.deb
-Size: 1054452
-MD5sum: e0781daacc6999fb17529f152f013f4e
-SHA1: 0e75cfed7c12ebd6d2ba36bd5d0bd809311d3028
-SHA256: e7bf66d4dfd98326a906f0ca281cae090bedbc45f001fdb7066fa5b959034932
+Filename: debs/fembabecam_v1.2.6-rollback2_iphoneos-arm64.deb
+Size: 1051872
+MD5sum: 297e9725d9e7981a78fd6a2c0d540d9d
+SHA1: 1f715193fcc9babb41f4e3d8bcc0de8b02624685
+SHA256: f17baebbeb908f42374706c9fe471ab8dd9cdb67872ab38ef10055e5c9a1161e
