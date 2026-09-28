@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam Experimental Rollback
-Version: 1.2.6+rollback2
+Name: FemBabe VCam Metadata Test
+Version: 1.2.7+metadata1
 Architecture: iphoneos-arm64
-Description: Rollback build removing all experimental still-photo processing hooks while retaining orientation and Live fixes.
+Description: Test build removing real-camera computational metadata from virtual still encoding without altering pixels or capture settings.
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.6-rollback2_iphoneos-arm64.deb
-Size: 1051872
-MD5sum: 297e9725d9e7981a78fd6a2c0d540d9d
-SHA1: 1f715193fcc9babb41f4e3d8bcc0de8b02624685
-SHA256: f17baebbeb908f42374706c9fe471ab8dd9cdb67872ab38ef10055e5c9a1161e
+Filename: debs/fembabecam_v1.2.7-metadata1_iphoneos-arm64.deb
+Size: 1055408
+MD5sum: 6e8ce282a5576a0c046d0bbdba62effb
+SHA1: 96e27fd7f3938a0fc72385ebd8a48e15a379b887
+SHA256: d96def1ff3580e72610c5cdd67507bd175f3259a60792586c344790c524cefc5
