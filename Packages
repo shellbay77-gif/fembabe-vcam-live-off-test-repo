@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam Metadata Test
-Version: 1.2.7+metadata1
+Name: FemBabe VCam Live YUV Still Test
+Version: 1.2.8+yuvstill1
 Architecture: iphoneos-arm64
-Description: Test build removing real-camera computational metadata from virtual still encoding without altering pixels or capture settings.
+Description: Test build replacing native still pixels with the correct Live Photo YUV frame before encoding.
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.7-metadata1_iphoneos-arm64.deb
-Size: 1055408
-MD5sum: 6e8ce282a5576a0c046d0bbdba62effb
-SHA1: 96e27fd7f3938a0fc72385ebd8a48e15a379b887
-SHA256: d96def1ff3580e72610c5cdd67507bd175f3259a60792586c344790c524cefc5
+Filename: debs/fembabecam_v1.2.8-yuvstill1_iphoneos-arm64.deb
+Size: 1058804
+MD5sum: e5fa942ac068a4a2b72df03a92b929fd
+SHA1: fee506b7d3ab3ba108f9b4bbc0174774cacc6580
+SHA256: b17745257c0e9f9dcdb544d2d04d88d6bfe58d2dde7dc18a498ca4b6f66ba808
