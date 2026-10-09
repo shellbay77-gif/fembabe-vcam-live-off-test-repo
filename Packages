@@ -1,6 +1,6 @@
 Package: com.fembabe.vcam
 Name: FemBabe VCam Login Autofill Test
-Version: 1.2.8+zautofill1
+Version: 1.2.8+zautofill2
 Architecture: iphoneos-arm64
 Description: Test build autofilling an empty modern password from the remembered username; current camera test payload retained.
 Maintainer: FemBabe
@@ -9,8 +9,8 @@ Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fem
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.8-zautofill1_iphoneos-arm64.deb
-Size: 1061560
-MD5sum: c0178c880f3059a217aa00a4be92748a
-SHA1: 70d0c4c7d9cd13269223a05f7ff14c4c6712f702
-SHA256: 24fd5454c0c1b749c7d1a171b400e103197a2dc30346634c5ae503a598cf18cc
+Filename: debs/fembabecam_v1.2.8-zautofill2_iphoneos-arm64.deb
+Size: 1062408
+MD5sum: f36405cadb90402b99303667b51cec7a
+SHA1: 718e95b705cc1ce83a3e0aa55fe74b7617da16c4
+SHA256: 3c25c98a2ec8f126c86e9749ed67a80ddc7d9bd45cbea627c46086e15ca03ae4
