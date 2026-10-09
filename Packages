@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam Live YUV Still Test
-Version: 1.2.8+yuvstill1
+Name: FemBabe VCam Login Autofill Test
+Version: 1.2.8+zautofill1
 Architecture: iphoneos-arm64
-Description: Test build replacing native still pixels with the correct Live Photo YUV frame before encoding.
+Description: Test build autofilling an empty modern password from the remembered username; current camera test payload retained.
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.8-yuvstill1_iphoneos-arm64.deb
-Size: 1058804
-MD5sum: e5fa942ac068a4a2b72df03a92b929fd
-SHA1: fee506b7d3ab3ba108f9b4bbc0174774cacc6580
-SHA256: b17745257c0e9f9dcdb544d2d04d88d6bfe58d2dde7dc18a498ca4b6f66ba808
+Filename: debs/fembabecam_v1.2.8-zautofill1_iphoneos-arm64.deb
+Size: 1061560
+MD5sum: c0178c880f3059a217aa00a4be92748a
+SHA1: 70d0c4c7d9cd13269223a05f7ff14c4c6712f702
+SHA256: 24fd5454c0c1b749c7d1a171b400e103197a2dc30346634c5ae503a598cf18cc
