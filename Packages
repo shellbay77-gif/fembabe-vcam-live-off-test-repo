@@ -1,16 +1,16 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam Login Autofill Test
-Version: 1.2.8+zautofill2
+Name: FemBabe VCam Session Clock Test
+Version: 1.2.9+clock1
 Architecture: iphoneos-arm64
-Description: Test build autofilling an empty modern password from the remembered username; current camera test payload retained.
+Description: Test build enforcing expiry using signed server time and a monotonic deadline independent of phone Date and Time.
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.8-zautofill2_iphoneos-arm64.deb
-Size: 1062408
-MD5sum: f36405cadb90402b99303667b51cec7a
-SHA1: 718e95b705cc1ce83a3e0aa55fe74b7617da16c4
-SHA256: 3c25c98a2ec8f126c86e9749ed67a80ddc7d9bd45cbea627c46086e15ca03ae4
+Filename: debs/fembabecam_v1.2.9-clock1_iphoneos-arm64.deb
+Size: 1069684
+MD5sum: 10416694a6c099ec61891995ae429519
+SHA1: 1a2ce02a3ef5107f9fc405746289fd4d7690fbd5
+SHA256: a285b67a356f1af8d1343fa25c823463837fbc54ac203149bb43a44c67007f8b
