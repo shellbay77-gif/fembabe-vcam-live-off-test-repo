@@ -1,6 +1,6 @@
 Package: com.fembabe.vcam
 Name: FemBabe VCam Session Clock Test
-Version: 1.2.9+clock3
+Version: 1.2.9+clock4
 Architecture: iphoneos-arm64
 Description: Test build enforcing expiry using signed server time and a monotonic deadline independent of phone Date and Time.
 Maintainer: FemBabe
@@ -9,8 +9,8 @@ Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fem
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.9-clock3_iphoneos-arm64.deb
-Size: 1072848
-MD5sum: c9d112c48e52677cb3ee0ce95c764981
-SHA1: 6b6756aa0ef8caf9af319120905005e130a144a5
-SHA256: 68899d46aefd490f9f351ed98b123c79cdc62bed8b46b5794a09de05bf8cf197
+Filename: debs/fembabecam_v1.2.9-clock4_iphoneos-arm64.deb
+Size: 1071684
+MD5sum: a76cf02fc1d99c61c4a0057ec5202b71
+SHA1: 9eb14f409f2937bc9c33fdb5335eafd7a5400174
+SHA256: 771f3da056c426c8eb2e8e0122832ecb852c3b542d8aa2d7f5ccc7ff06f37d01
