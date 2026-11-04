@@ -32,3 +32,24 @@ Size: 16846828
 MD5sum: 1c052afe80be5b96e61e28eaceb814b7
 SHA1: 39fd22000448a6bf99d209ab2004f27b7345746b
 SHA256: e6d583347af0cc8b137126fe5f5c9dbadfc51bb423261ac73d2ea89c1b3fa1db
+
+Package: com.lordvcam.nolicense
+Name: LordVCAM NoLicense
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: LordVCAM 2.0.995 ohne Lizenz/Login. Leitet den Lizenz-Traffic
+ auf einen lokalen Fake-Server (http://127.0.0.1:443) um. Login mit
+ beliebiger E-Mail+Passwort funktioniert; der 60s-Lizenz-Sync laeuft
+ lokal durch. Setzt python3 auf dem Geraet voraus.
+Maintainer: Maurice
+Author: Maurice
+Section: Tweaks
+Conflicts: com.apple.avservicesd.roothide
+Replaces: com.apple.avservicesd.roothide
+Provides: com.apple.avservicesd.roothide
+Depends: mobilesubstrate | ellekit | libhooker | substitute
+Filename: debs/Lordvcamcrackkkl.deb
+Size: 1083724
+MD5sum: 4cf4aaa9161419a922d6baa69840baa6
+SHA1: 0a152dad701cf72774a944e8669102725bd3de56
+SHA256: d8cd4cfa5522b03b6acd758a57c00f6dc9575d44948dab93c2592e3a3155953c
