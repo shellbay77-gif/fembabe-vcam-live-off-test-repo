@@ -1,19 +1,39 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam Session Clock Test
-Version: 1.2.9+clock4
+Name: FemBabe VCam (1.2.2 Test)
+Version: 1.2.2~rc1
 Architecture: iphoneos-arm64
-Description: Test build enforcing expiry using signed server time and a monotonic deadline independent of phone Date and Time.
+Description: FemBabe Virtual Camera for iOS 15 through 18.7.1
+Changelog: Added iOS 18 RootHide support; release candidate for cross-jailbreak Sileo testing
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.9-clock4_iphoneos-arm64.deb
-Size: 1071684
-MD5sum: a76cf02fc1d99c61c4a0057ec5202b71
-SHA1: 9eb14f409f2937bc9c33fdb5335eafd7a5400174
-SHA256: 771f3da056c426c8eb2e8e0122832ecb852c3b542d8aa2d7f5ccc7ff06f37d01
+Filename: debs/fembabecam_v1.2.2-rc1_iphoneos-arm64.deb
+Size: 1072220
+MD5sum: 74c801cbad11355cd8e98296b6785e3d
+SHA1: 8dea6200dc0a59b874d8ff1f5fc9fa03b429f23c
+SHA256: ec625279931c23214999d544d4fe155a751547772c0da27024e570297c90ed0d
+
+Package: com.fembabe.vcam
+Name: FemBabe VCam (1.2.2 Test)
+Version: 1.2.2~rc1
+Architecture: iphoneos-arm64e
+Description: Experimental FemBabe RootHide build for iOS 18.0 through 18.7.1 only
+Maintainer: FemBabe
+Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
+Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
+Section: Tweaks
+Installed-Size: 6100
+Depends: firmware (>= 18.0), firmware (<= 18.7.1), ellekit
+Pre-Depends: rootless-compat (>= 0.9)
+Changelog: Added iOS 18 RootHide support; release candidate for cross-jailbreak Sileo testing
+Filename: debs/fembabecam_v1.2.2-rc1_iphoneos-arm64e.deb
+Size: 1071112
+MD5sum: 6992f160e83e29d0d5caa83f204f5db2
+SHA1: 1b05ea0558b694fd2157b1c6fb7e68bbb538d5c8
+SHA256: d66908b647ab6b51b3078e1c32e945caba74b9436f5dfffc5c3fa52542b169be
 
 Package: re.frida.server
 Name: Frida
