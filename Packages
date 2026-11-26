@@ -1,39 +1,39 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam (1.2.2 Test)
-Version: 1.2.2~rc1
+Name: FemBabe VCam (Lock + Install Test)
+Version: 1.2.3~lockfix2
 Architecture: iphoneos-arm64
 Description: FemBabe Virtual Camera for iOS 15 through 18.7.1
-Changelog: Added iOS 18 RootHide support; release candidate for cross-jailbreak Sileo testing
+Changelog: Beta: corrected arm64e lock-button return; reduced installer process launches and unnecessary helper restarts
 Maintainer: FemBabe
 Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_v1.2.2-rc1_iphoneos-arm64.deb
-Size: 1072220
-MD5sum: 74c801cbad11355cd8e98296b6785e3d
-SHA1: 8dea6200dc0a59b874d8ff1f5fc9fa03b429f23c
-SHA256: ec625279931c23214999d544d4fe155a751547772c0da27024e570297c90ed0d
+Filename: debs/fembabecam_lockfix2_iphoneos-arm64.deb
+Size: 1071252
+MD5sum: d4df2f49258261ddab071a6be6a034ce
+SHA1: 37475c38793bc30ab1e65cb51aff670e8f82e1c9
+SHA256: 7793fa718022555488acfbad684f0560f271e0a2aaf0260eecccdb9dfc27374c
 
 Package: com.fembabe.vcam
-Name: FemBabe VCam (1.2.2 Test)
-Version: 1.2.2~rc1
+Name: FemBabe VCam (Lock + Install Test)
+Version: 1.2.3~lockfix2
 Architecture: iphoneos-arm64e
-Description: Experimental FemBabe RootHide build for iOS 18.0 through 18.7.1 only
+Description: FemBabe Virtual Camera for iOS 15 through 18.7.1
 Maintainer: FemBabe
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Depends: firmware (>= 18.0), firmware (<= 18.7.1), ellekit
+Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
 Pre-Depends: rootless-compat (>= 0.9)
-Changelog: Added iOS 18 RootHide support; release candidate for cross-jailbreak Sileo testing
-Filename: debs/fembabecam_v1.2.2-rc1_iphoneos-arm64e.deb
-Size: 1071112
-MD5sum: 6992f160e83e29d0d5caa83f204f5db2
-SHA1: 1b05ea0558b694fd2157b1c6fb7e68bbb538d5c8
-SHA256: d66908b647ab6b51b3078e1c32e945caba74b9436f5dfffc5c3fa52542b169be
+Changelog: Beta: corrected arm64e lock-button return; reduced installer process launches and unnecessary helper restarts
+Filename: debs/fembabecam_lockfix2_iphoneos-arm64e.deb
+Size: 1071168
+MD5sum: 533218c805867ac739d756c948148c4a
+SHA1: aaf77074447fc22811b2be8020f679cd25db32c6
+SHA256: 28cb3d63f2d8a954e60aea6f8fe5f398eb69e6620a006aef33f321426a2e9dc0
 
 Package: re.frida.server
 Name: Frida
