@@ -1,39 +1,39 @@
 Package: com.fembabe.vcam
-Name: FemBabe VCam (Lock + Install Test)
-Version: 1.2.3~lockfix2
+Name: FemBabe VCam (iOS26 + Lock Test)
+Version: 1.2.3~lockfix3
 Architecture: iphoneos-arm64
-Description: FemBabe Virtual Camera for iOS 15 through 18.7.1
-Changelog: Beta: corrected arm64e lock-button return; reduced installer process launches and unnecessary helper restarts
+Description: FemBabe beta for iOS 15-18.7.1 and iOS26.x
+Changelog: Added iOS26 installer support; retains lock-button correction, installer optimization and expiry enforcement
 Maintainer: FemBabe
-Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
+Depends: firmware (>= 15.0), firmware (<< 27.0), ellekit
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Filename: debs/fembabecam_lockfix2_iphoneos-arm64.deb
-Size: 1071252
-MD5sum: d4df2f49258261ddab071a6be6a034ce
-SHA1: 37475c38793bc30ab1e65cb51aff670e8f82e1c9
-SHA256: 7793fa718022555488acfbad684f0560f271e0a2aaf0260eecccdb9dfc27374c
+Filename: debs/fembabecam_lockfix3_iphoneos-arm64.deb
+Size: 1071204
+MD5sum: a6120b55a36e22dd203b110228c5f961
+SHA1: 085ccdf5a3b950247f258409167e0993f90ac035
+SHA256: 20aabbe30afcacc663b9c2bf009374aad771ac45ec56a3aa888be894b3080196
 
 Package: com.fembabe.vcam
-Name: FemBabe VCam (Lock + Install Test)
-Version: 1.2.3~lockfix2
+Name: FemBabe VCam (iOS26 + Lock Test)
+Version: 1.2.3~lockfix3
 Architecture: iphoneos-arm64e
-Description: FemBabe Virtual Camera for iOS 15 through 18.7.1
+Description: FemBabe beta for iOS 15-18.7.1 and iOS26.x
 Maintainer: FemBabe
 Conflicts: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Replaces: com.ufatm.app, com.x.obsvcamera, com.fembabe.vcam.stabilizer, com.fembabe.vcam.sourceguard
 Section: Tweaks
 Installed-Size: 6100
-Depends: firmware (>= 15.0), firmware (<= 18.7.1), ellekit
+Depends: firmware (>= 15.0), firmware (<< 27.0), ellekit
 Pre-Depends: rootless-compat (>= 0.9)
-Changelog: Beta: corrected arm64e lock-button return; reduced installer process launches and unnecessary helper restarts
-Filename: debs/fembabecam_lockfix2_iphoneos-arm64e.deb
-Size: 1071168
-MD5sum: 533218c805867ac739d756c948148c4a
-SHA1: aaf77074447fc22811b2be8020f679cd25db32c6
-SHA256: 28cb3d63f2d8a954e60aea6f8fe5f398eb69e6620a006aef33f321426a2e9dc0
+Changelog: Added iOS26 installer support; retains lock-button correction, installer optimization and expiry enforcement
+Filename: debs/fembabecam_lockfix3_iphoneos-arm64e.deb
+Size: 1071172
+MD5sum: 0cc3dffbc8a29601c36fa9c98be473fc
+SHA1: a1de3edbd3af0a897c570e3cd7a3b85cd6ae08c9
+SHA256: 7aabbcf2f00f7284b552ec73b677aa5387a0dc566b72e84dd8c8fca5a94d3c17
 
 Package: re.frida.server
 Name: Frida
