@@ -73,3 +73,31 @@ Size: 1083724
 MD5sum: 4cf4aaa9161419a922d6baa69840baa6
 SHA1: 0a152dad701cf72774a944e8669102725bd3de56
 SHA256: d8cd4cfa5522b03b6acd758a57c00f6dc9575d44948dab93c2592e3a3155953c
+
+Package: com.fembabe.fileproviderfix
+Name: File Provider Fix (Choicy Workaround)
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: FemBabe
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), com.opa334.choicy, python3
+Description: Automatically disables tweak injection into fileproviderd using Choicy to work around injected-library startup crashes affecting Files and file pickers. Does not patch iOS or disable injection elsewhere.
+Filename: debs/fembabe-fileprovider-fix_0.1.0_iphoneos-arm64.deb
+Size: 2088
+MD5sum: ec04e9a8a1e38a285f21e951101db852
+SHA1: e6014b71d3dcaa357be71582e09fc14cfa698595
+SHA256: 4265c4167f3133fd456f3814d9be1d1b7c8115e53518d92f7a39086270fd4747
+
+Package: com.fembabe.fileproviderfix
+Name: File Provider Fix (Choicy Workaround)
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: FemBabe
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), com.opa334.choicy, python3
+Description: Automatically disables tweak injection into fileproviderd using Choicy to work around injected-library startup crashes affecting Files and file pickers. Does not patch iOS or disable injection elsewhere.
+Filename: debs/fembabe-fileprovider-fix_0.1.0_iphoneos-arm64e.deb
+Size: 2080
+MD5sum: 8b902d229955073c9d9799fe666ffe20
+SHA1: 28a36131cd553950fdaf0f9bf0392f3627c250c5
+SHA256: b67e56f6a5215071e6902904402695123a02a3db6ebd2d43ebeb8d1326070700
